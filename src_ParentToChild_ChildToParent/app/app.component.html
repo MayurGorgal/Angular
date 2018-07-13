@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Parent To Child And Child To Parent Communication
+  </h1>
+
+  <app-Child  [parentData]="str" (event)="Message= $event"></app-Child>
+
+  <h2>{{Message}}</h2>  
+</div>
